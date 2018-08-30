@@ -1,0 +1,70 @@
+{
+    "name": "Agustín Rodríguez",
+    "bio": "#coder #entrepreneur #optimist #dreamer #student",
+    "education": [
+        {
+            "university": "Universidad ORT Uruguay",
+            "degree": "System's Engineer",
+            "fieldOfStudy": "Computer Science",
+            "grade": 90,
+            "startYear": 2014,
+            "endYear": 2019
+        }
+    ],
+    "work": [
+        {
+            "company": "Universidad ORT Uruguay",
+            "position": "Professor Assistant",
+            "startMonth": 7,
+            "startYear": 2016,
+            "endMonth": 12,
+            "endYear": 2016,
+            "description": "Lorem ipsum"
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Science Church",
+            "position": "Evangelist",
+            "startMonth": 2,
+            "startYear": 2015,
+            "endMonth": 2,
+            "endYear": 2015,
+            "description": "Fake volunteer entry"
+        }
+    ],
+    "award": [
+        {
+            "title": "Latin-America First Prize on Innovation",
+            "description": "N/A",
+            "awarder": "http://www.cii.uy",
+            "year": 2016
+        }
+    ],
+    "publication": [
+        {
+            "name": "Use of singular names in weird open source code",
+            "description": "Nothing to say",
+            "publisher": "No1",
+            "releaseYear": 2018,
+            "url": "http://agurodriguez.net"
+        }
+    ],
+    "skill": [
+        {
+            "name": "TypeScript",
+            "level": "beginner",
+            "keywords": "typescript, javascript, programming"
+        }
+    ],
+    "language": [
+        {
+            "name": "Español",
+            "level": "Native"
+        },
+        {
+            "name": "English",
+            "level": "Intermediate"
+        }
+    ]
+}
