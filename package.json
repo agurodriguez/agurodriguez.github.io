@@ -2,6 +2,7 @@
   "name": "website",
   "version": "0.1.1",
   "private": true,
+  "homepage": "https://agurodriguez.github.io",
   "dependencies": {
     "react": "^16.4.2",
     "react-bashme": "^0.1.1",
@@ -11,9 +12,14 @@
     "react-window-ui": "^1.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -fr docs && mv build docs",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
