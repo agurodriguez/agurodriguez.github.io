@@ -19,8 +19,8 @@ class App extends Component {
 					</header>
 				</div>
 				<div className='flex-center flex-grow'>
-					<div style={{ width: 800, margin: 'auto' }}>
-						<Terminal>
+					<div style={{ width: '100%', maxWidth: 800, margin: 'auto' }}>
+						<Terminal id='terminal'>
 							<Bashme
 								providers={[
 									new Json(require('../../data/agurodriguez.json'))

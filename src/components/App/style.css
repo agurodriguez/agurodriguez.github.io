@@ -81,3 +81,18 @@ footer ul li:last-of-type::after {
 .xterm-viewport {
     overflow-y: auto !important;
 }
+
+@media (max-width : 480px) {
+    
+    #terminal {
+        border-radius: 0;
+        box-shadow: none;
+        padding: .5em;
+    }
+
+    #terminal::before,
+    #terminal::after {
+        display: none;
+    }
+
+}
