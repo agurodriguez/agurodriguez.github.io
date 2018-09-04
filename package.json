@@ -5,11 +5,11 @@
   "homepage": "https://agurodriguez.github.io",
   "dependencies": {
     "react": "^16.4.2",
-    "react-bashme": "^0.1.4",
+    "react-bashme": "^0.2.1",
     "react-dom": "^16.4.2",
     "react-icons": "^3.0.5",
     "react-scripts": "1.1.5",
-    "react-window-ui": "^1.1.0"
+    "react-window-ui": "^1.1.1"
   },
   "scripts": {
     "predeploy": "npm run build",
