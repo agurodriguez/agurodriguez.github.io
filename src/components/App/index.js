@@ -19,7 +19,7 @@ class App extends Component {
 					</header>
 				</div>
 				<div className='flex-center flex-grow'>
-					<div style={{ width: '100%', maxWidth: 800, margin: 'auto' }}>
+					<div style={{ width: '100%', height: '100%', maxWidth: 1024, maxHeight: 512, margin: 'auto' }}>
 						<Terminal id='terminal'>
 							<Bashme
 								providers={[

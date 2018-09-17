@@ -55,6 +55,11 @@ footer ul li:last-of-type::after {
     background: whitesmoke;
 }
 
+#terminal,
+#terminal #bashme {
+    height: 100%;
+}
+
 .content {
     display: flex;
     flex: 1;
