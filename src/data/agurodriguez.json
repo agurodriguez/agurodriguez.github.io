@@ -28,7 +28,7 @@
             "startYear": 2016,
             "endMonth": 12,
             "endYear": 2016,
-            "description": "Lorem ipsum"
+            "description": "For one semester I have been Professor Assistant of Programming courses helping students with their assignments among other things"
         },
         {
             "company": "Fuisonar SRL",
@@ -38,15 +38,6 @@
             "endMonth": 8,
             "endYear": 2015,
             "description": "For two years I were part of Fusionar’s developers team helping them to make a lot of different web apps. Used languages/technologies: C#, NodeJS, PHP, SQL Server."
-        },
-        {
-            "company": "Urudata",
-            "position": "IT Analyst",
-            "startMonth": 3,
-            "startYear": 2010,
-            "endMonth": 8,
-            "endYear": 2013,
-            "description": "First job. I started working as a Helpdesk Support Technician ending up as a System Administrator two years later. After the third year I realized that I was loving writing simple scripts much more than managing servers so I moved to the software industry."
         }
     ],
     "awards": [
