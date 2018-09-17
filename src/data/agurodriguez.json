@@ -1,17 +1,26 @@
 {
     "name": "Agustín Rodríguez",
-    "bio": "#coder #entrepreneur #optimist #dreamer #student",
+    "bio": "#coder #entrepreneur #optimist #dreamer",
     "education": [
         {
             "university": "Universidad ORT Uruguay",
             "degree": "System's Engineer",
             "fieldOfStudy": "Computer Science",
-            "grade": 90,
+            "grade": 88,
             "startYear": 2014,
             "endYear": 2019
         }
     ],
     "work": [
+        {
+            "company": "Independent",
+            "position": "Software Developer",
+            "startMonth": 9,
+            "startYear": 2015,
+            "endMonth": null,
+            "endYear": null,
+            "description": "Since 2015 I’m working as an independent software developer making small mobile/ web applications to small companies in Uruguay. Some of my customers were Fusionar, Montes del Plata, Uroboros and Security Advisor."
+        },
         {
             "company": "Universidad ORT Uruguay",
             "position": "Professor Assistant",
@@ -20,22 +29,29 @@
             "endMonth": 12,
             "endYear": 2016,
             "description": "Lorem ipsum"
-        }
-    ],
-    "volunteer": [
+        },
         {
-            "organization": "Science Church",
-            "position": "Evangelist",
-            "startMonth": 2,
-            "startYear": 2015,
-            "endMonth": 2,
+            "company": "Fuisonar SRL",
+            "position": "Software Developer",
+            "startMonth": 9,
+            "startYear": 2013,
+            "endMonth": 8,
             "endYear": 2015,
-            "description": "Fake volunteer entry"
+            "description": "For two years I were part of Fusionar’s developers team helping them to make a lot of different web apps. Used languages/technologies: C#, NodeJS, PHP, SQL Server."
+        },
+        {
+            "company": "Urudata",
+            "position": "IT Analyst",
+            "startMonth": 3,
+            "startYear": 2010,
+            "endMonth": 8,
+            "endYear": 2013,
+            "description": "First job. I started working as a Helpdesk Support Technician ending up as a System Administrator two years later. After the third year I realized that I was loving writing simple scripts much more than managing servers so I moved to the software industry."
         }
     ],
     "awards": [
         {
-            "title": "Latin-America First Prize on Innovation",
+            "title": "1st Prize on Latam in `Rally Latinoamericano de Innovación 2016`",
             "description": "N/A",
             "awarder": "http://www.cii.uy",
             "year": 2016
@@ -43,9 +59,24 @@
     ],
     "skills": [
         {
-            "name": "TypeScript",
-            "level": "beginner",
-            "keywords": "typescript, javascript, programming"
+            "name": "C++",
+            "level": "noob",
+            "keywords": "c, cpp"
+        },
+        {
+            "name": "C#",
+            "level": "intermediate",
+            "keywords": "csharp"
+        },
+        {
+            "name": "JavaScript",
+            "level": "intermediate",
+            "keywords": "js, react, react-native, ts"
+        },
+        {
+            "name": "PHP",
+            "level": "intermediate",
+            "keywords": "php"
         }
     ],
     "languages": [
