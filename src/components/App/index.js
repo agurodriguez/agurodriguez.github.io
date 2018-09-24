@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 import { FaGithub } from 'react-icons/fa';
 import { Terminal } from 'react-window-ui';
 
@@ -9,7 +10,15 @@ import './style.css';
 
 class App extends Component {
 
+	constructor(props) {
+		super(props);
+
+		ReactGA.initialize('UA-126193327-1');
+	}
+
 	render() {
+		ReactGA.pageview(window.location.pathname + window.location.search);
+
 		return (
 			<div className='content'>
 				<div className='flex-center-h'>
