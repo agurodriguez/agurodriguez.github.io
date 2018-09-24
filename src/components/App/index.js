@@ -34,6 +34,9 @@ class App extends Component {
 								providers={[
 									new Json(require('../../data/agurodriguez.json'))
 								]}
+								onCommand={(command) => {
+									ReactGA.event({ category: 'bashme.command', action: command })}
+								}
 							/>
 						</Terminal>
 					</div>
