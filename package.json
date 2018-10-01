@@ -5,7 +5,7 @@
   "homepage": "https://agurodriguez.github.io",
   "dependencies": {
     "react": "^16.5.2",
-    "react-bashme": "^0.2.7",
+    "react-bashme": "^0.2.8",
     "react-dom": "^16.5.2",
     "react-ga": "^2.5.3",
     "react-icons": "^3.1.0",
