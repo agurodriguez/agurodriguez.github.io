@@ -31,6 +31,9 @@ class App extends Component {
 					<div style={{ width: '100%', height: '100%', maxWidth: 1024, maxHeight: 512, margin: 'auto' }}>
 						<Terminal id='terminal'>
 							<Bashme
+								options={{
+									welcomeMessage: 'Welcome to my digital home. Please type `help` to get started.'
+								}}
 								providers={[
 									new Json(require('../../data/agurodriguez.json'))
 								]}
