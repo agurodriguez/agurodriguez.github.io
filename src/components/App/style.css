@@ -51,6 +51,22 @@ footer ul li:last-of-type::after {
     display: none;
 }
 
+.xterm-viewport::-webkit-scrollbar {
+    width: 8px
+}
+
+.xterm-viewport::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.xterm-viewport::-webkit-scrollbar-thumb {
+    background-color: #262626;
+    border-color: transparent;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 0 2px;
+}
+
 #root {
     background: whitesmoke;
 }

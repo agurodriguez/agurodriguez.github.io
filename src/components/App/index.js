@@ -32,7 +32,7 @@ class App extends Component {
 						<Terminal id='terminal'>
 							<Bashme
 								options={{
-									welcomeMessage: 'Welcome to my digital home. Please type `help` to get started.'
+									welcomeMessage: 'Welcome to my digital home. \r\nPlease type `help` to get started.'
 								}}
 								providers={[
 									new Json(require('../../data/agurodriguez.json'))
