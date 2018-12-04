@@ -35,8 +35,8 @@ class App extends Component {
 									welcomeMessage: 'Welcome to my digital home. \r\nPlease type `help` to get started.'
 								}}
 								providers={[
-									new GitHub(process.env.REACT_APP_GITHUB_AUTH_TOKEN),
 									new Json(require('../../data/agurodriguez.json')),
+									new GitHub(process.env.REACT_APP_GITHUB_AUTH_TOKEN),
 								]}
 								onInput={(command) => {
 									ReactGA.event({ category: 'bashme.command', action: command })}
