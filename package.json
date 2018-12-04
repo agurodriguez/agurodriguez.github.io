@@ -4,10 +4,10 @@
   "private": true,
   "homepage": "https://agurodriguez.github.io",
   "dependencies": {
-    "react": "^16.6.0",
-    "react-bashme": "^0.2.11",
-    "react-dom": "^16.6.0",
-    "react-ga": "^2.5.3",
+    "react": "^16.6.3",
+    "react-bashme": "^0.3.1",
+    "react-dom": "^16.6.3",
+    "react-ga": "^2.5.6",
     "react-icons": "^3.2.2",
     "react-scripts": "1.1.5",
     "react-window-ui": "^1.1.1"

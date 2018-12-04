@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 import { Terminal } from 'react-window-ui';
 
 import Bashme from 'react-bashme';
-import { Json } from 'react-bashme/dist/providers';
+import { GitHub, Json } from 'react-bashme/dist/providers';
 
 import './style.css';
 
@@ -35,7 +35,8 @@ class App extends Component {
 									welcomeMessage: 'Welcome to my digital home. \r\nPlease type `help` to get started.'
 								}}
 								providers={[
-									new Json(require('../../data/agurodriguez.json'))
+									new GitHub(process.env.REACT_APP_GITHUB_AUTH_TOKEN),
+									new Json(require('../../data/agurodriguez.json')),
 								]}
 								onInput={(command) => {
 									ReactGA.event({ category: 'bashme.command', action: command })}
