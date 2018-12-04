@@ -36,7 +36,7 @@ class App extends Component {
 								}}
 								providers={[
 									new Json(require('../../data/agurodriguez.json')),
-									new GitHub(process.env.REACT_APP_GITHUB_AUTH_TOKEN),
+									new GitHub('agurodriguez'),
 								]}
 								onInput={(command) => {
 									ReactGA.event({ category: 'bashme.command', action: command })}
