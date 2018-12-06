@@ -1,6 +1,6 @@
 {
   "name": "agurodriguez",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "private": true,
   "homepage": "https://agurodriguez.github.io",
   "dependencies": {
@@ -42,7 +42,7 @@
     "postcss-safe-parser": "4.0.1",
     "react": "^16.6.3",
     "react-app-polyfill": "^0.1.3",
-    "react-bashme": "^0.3.3",
+    "react-bashme": "^0.3.4",
     "react-dev-utils": "^6.1.1",
     "react-dom": "^16.6.3",
     "react-ga": "^2.5.6",
@@ -59,7 +59,7 @@
     "workbox-webpack-plugin": "3.6.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm update && npm run build",
     "deploy": "gh-pages -b master -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
