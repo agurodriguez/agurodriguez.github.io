@@ -1,6 +1,6 @@
 {
     "name": "Agustín Rodríguez",
-    "bio": "#coder #entrepreneur #optimist #dreamer",
+    "bio": "#coder #engineer #entrepreneur #optimist #remoter",
     "education": [
         {
             "university": "Universidad ORT Uruguay",
@@ -13,13 +13,22 @@
     ],
     "work": [
         {
+            "company": "Torre Labs",
+            "position": "Senior Software Engineer",
+            "startMonth": 3,
+            "startYear": 2019,
+            "endMonth": null,
+            "endYear": null,
+            "description": "Since March 2019 I work 100% remotely with the Torre Labs engineering team. We are building THE platform that connects talent with organizations to make work fullfiling for everyone."
+        },
+        {
             "company": "Independent",
             "position": "Software Developer",
             "startMonth": 9,
             "startYear": 2015,
-            "endMonth": null,
-            "endYear": null,
-            "description": "Since 2015 I’m working as an independent software developer making small mobile/ web applications to small companies in Uruguay. Some of my customers were Fusionar, Montes del Plata, Uroboros and Security Advisor."
+            "endMonth": 12,
+            "endYear": 2018,
+            "description": "More than three years working as an independent software developer crafting small mobile and web applications for small companies in Uruguay. Some of my customers were Fusionar, Montes del Plata, Uroboros and Security Advisor."
         },
         {
             "company": "Universidad ORT Uruguay",
@@ -61,8 +70,8 @@
         },
         {
             "name": "JavaScript",
-            "level": "intermediate",
-            "keywords": "js, react, react-native, ts"
+            "level": "advanced",
+            "keywords": "js, react, react-native, ts, vue"
         },
         {
             "name": "PHP",
@@ -72,12 +81,16 @@
     ],
     "languages": [
         {
+            "name": "English",
+            "level": "Intermediate"
+        },
+        {
             "name": "Español",
             "level": "Native"
         },
         {
-            "name": "English",
-            "level": "Intermediate"
+            "name": "Français",
+            "level": "Basic"
         }
     ]
 }
