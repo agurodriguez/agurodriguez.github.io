@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 import { Terminal } from 'react-window-ui';
 
 import Bashme from 'react-bashme';
-import { GitHub, Json } from 'react-bashme/dist/providers';
+import { GitHub, Json } from 'react-bashme/dist/provider';
 
 import './style.css';
 
