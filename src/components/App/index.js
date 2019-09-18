@@ -3,8 +3,8 @@ import ReactGA from 'react-ga';
 import { FaGithub } from 'react-icons/fa';
 import { Terminal } from 'react-window-ui';
 
+import { GitHub, Json } from 'bashme';
 import Bashme from 'react-bashme';
-import { GitHub, Json } from 'react-bashme/dist/provider';
 
 import './style.css';
 
