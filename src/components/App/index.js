@@ -24,7 +24,7 @@ class App extends Component {
 				<div className='flex-center-h'>
 					<header>
 						<h1>agurodriguez</h1>
-						<span>#coder #entrepreneur #optimist #dreamer</span>
+						<span>#coder #entrepreneur #optimist #dreamer #remoter</span>
 					</header>
 				</div>
 				<div className='flex-center flex-grow'>
