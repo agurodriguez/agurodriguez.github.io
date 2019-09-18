@@ -37,7 +37,7 @@
             "startYear": 2016,
             "endMonth": 12,
             "endYear": 2016,
-            "description": "For one semester I have been Professor Assistant of Programming courses helping students with their assignments among other things"
+            "description": "Professor Assistant of Programming courses during one semester. My main task was to help students with their assignments and mid-term exams."
         },
         {
             "company": "Fusionar SRL",
@@ -46,7 +46,7 @@
             "startYear": 2013,
             "endMonth": 8,
             "endYear": 2015,
-            "description": "Member of the development team. Participated in the designed and development of a lot of different web apps. Back there we used a few languages and technologies in a daily basis: C#, NodeJS, PHP, React, SQL Server."
+            "description": "Member of the development team. Participated in the design and development of a lot of different web apps."
         }
     ],
     "awards": [
@@ -61,22 +61,32 @@
         {
             "name": "C++",
             "level": "noob",
-            "keywords": "c, cpp"
+            "keywords": "c, clang, cmake, cpp, msvc, vcpkg"
         },
         {
             "name": "C#",
             "level": "intermediate",
-            "keywords": "csharp"
+            "keywords": "csharp, dotnet"
         },
         {
             "name": "JavaScript",
-            "level": "advanced",
+            "level": "intermediate",
             "keywords": "js, react, react-native, ts, vue"
         },
         {
-            "name": "PHP",
+            "name": "Kotlin",
             "level": "intermediate",
-            "keywords": "php"
+            "keywords": "jvm, kotlin"
+        },
+        {
+            "name": "Scala",
+            "level": "intermediate",
+            "keywords": "jvm, scala"
+        },
+        {
+            "name": "TypeScript",
+            "level": "intermediate",
+            "keywords": "ts"
         }
     ],
     "languages": [
