@@ -1,14 +1,14 @@
 {
     "name": "Agustín Rodríguez",
-    "bio": "#coder #engineer #entrepreneur #optimist #remoter",
+    "bio": "A curious and entrepreneurial soul passionate about computer science, leadership and space-time. Full-time remoter.",
     "education": [
         {
             "university": "Universidad ORT Uruguay",
             "degree": "System's Engineer",
             "fieldOfStudy": "Computer Science",
-            "grade": 88,
+            "grade": 87,
             "startYear": 2014,
-            "endYear": 2019
+            "endYear": 2020
         }
     ],
     "work": [
@@ -19,7 +19,7 @@
             "startYear": 2019,
             "endMonth": null,
             "endYear": null,
-            "description": "Since March 2019 I work 100% remotely with the Torre Labs engineering team. We are building THE platform that connects talent with organizations to make work fulfilling for everyone."
+            "description": "Since March 2019 I work 100% remotely with the Torre Labs algorithms team. We are building THE platform to connect talent with organizations in order to make work fulfilling for everyone."
         },
         {
             "company": "Independent",
@@ -62,11 +62,6 @@
             "name": "C++",
             "level": "noob",
             "keywords": "c, clang, cmake, cpp, msvc, vcpkg"
-        },
-        {
-            "name": "C#",
-            "level": "intermediate",
-            "keywords": "csharp, dotnet"
         },
         {
             "name": "JavaScript",
